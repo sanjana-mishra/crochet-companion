@@ -20,10 +20,10 @@ This repository contains code and documentation for a project focused on automat
 - Open the associated notebook
 - Download data_coco.zip (this contains the annotated dataset in COCO format)
 - Create a dir called "data" within the main content dir in colab. (quick hack: create a folder in "sample_data", drag-drop to main section and proceed)
-- Extract and create the following folder structure in the notebook as shown (Only populate "test", "train" and "val" sub-dirs inside the "data" dir. Add an empty "models" dir containing "detectron2_models" sub-dir)
+- Extract and create the following folder structure in the notebook as shown and upload corresponding images and json files in "train" and "val" dirs (Only populate "test", "train" and "val" sub-dirs inside the "data" dir. Add an empty "models" dir containing "detectron2_models" sub-dir)
 - ![Detectron2 File Structure](/detectron2_file_struct.png)
 - Run cells (additional comments in notebook)
-- Can test different images by switching out test image from test directory
+- Can test different images by switching out test image from test dir
 
 
 
@@ -31,7 +31,7 @@ This repository contains code and documentation for a project focused on automat
 - Open the associated notebook
 - Download data_yolo.zip (this contains the annotated dataset in YOLO format)
 - Create a dir called "data_yolo" within the main content dir in colab. (quick hack: create a folder in "sample_data", drag-drop to main section and proceed)
-- Extract and create the following folder structure in the notebook as shown (Only populate "test", "train" and "valid" sub-dirs inside the "data_yolo" dir. Add an empty "results" dir in the "data_yolo" dir. Add "data.yaml" from "data_yolo.zip" to "data_yolo" dir)
+- Extract and create the following folder structure in the notebook as shown and upload corresponding images, labels in "train" and "vaid" dirs after creating respective "images" and "labels" dirs within them (Only populate "test", "train" and "valid" sub-dirs inside the "data_yolo" dir. Add an empty "results" dir in the "data_yolo" dir. Add "data.yaml" from "data_yolo.zip" to "data_yolo" dir)
 - ![YOLOv8 File Structure](/yolov8_file_struct.png)
 - Run cells (additional comments in notebook)
-- Can test different images by switching out test image from test directory
+- Can test different images by switching out test image from test dir
