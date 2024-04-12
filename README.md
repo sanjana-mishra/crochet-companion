@@ -2,6 +2,7 @@
 Instance Segmentation for Precise Crochet Stitch Recognition
 
 This repository contains code and documentation for a project focused on automating the instance segmentation of crochet stitches using deep learning models. The goal is to develop robust solutions for accurately identifying individual stitches in crochet patterns. 
+![Intro](/face.png)
 
 ## The stitches used in this project are:
 - Single Crochet Stitch (sc)
