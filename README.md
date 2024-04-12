@@ -1,7 +1,7 @@
 # Crochet Companion
 Instance Segmentation for Precise Crochet Stitch Recognition
 
-This repository contains code and documentation for a project focused on automating the instance segmentation of crochet stitches using deep learning models. The goal is to develop robust solutions for accurately identifying individual stitches in crochet patterns. 
+This repository contains code and documentation for a project focused on automating the instance segmentation of crochet stitches using deep learning models. The goal is to develop robust ssolutions to accurately identify individual stitches within crochet patterns.
 ![Intro](/face.png)
 
 ## The stitches used in this project are:
@@ -20,10 +20,10 @@ This repository contains code and documentation for a project focused on automat
 - Open the associated notebook
 - Download data_coco.zip (this contains the annotated dataset in COCO format)
 - Create a dir called "data" within the main content dir in colab. (quick hack: create a folder in "sample_data", drag-drop to main section and proceed)
-- Extract and create the following folder structure in the notebook (Only populate "test", "train" and "val" sub-dirs inside the "data" dir. Add an empty "models" dir containing "detectron2_models" sub-dir)
+- Extract and create the following folder structure in the notebook as shown (Only populate "test", "train" and "val" sub-dirs inside the "data" dir. Add an empty "models" dir containing "detectron2_models" sub-dir)
 - ![Detectron2 File Structure](/detectron2_file_struct.png)
 - Run cells (additional comments in notebook)
-- Can test differnt images by switching out test image from test directory
+- Can test different images by switching out test image from test directory
 
 
 
@@ -31,7 +31,7 @@ This repository contains code and documentation for a project focused on automat
 - Open the associated notebook
 - Download data_yolo.zip (this contains the annotated dataset in YOLO format)
 - Create a dir called "data_yolo" within the main content dir in colab. (quick hack: create a folder in "sample_data", drag-drop to main section and proceed)
-- Extract and create the following folder structure in the notebook (Only populate "test", "train" and "valid" sub-dirs inside the "data_yolo" dir. Add an empty "results" dir in the "data_yolo" dir. Add "data.yaml" from "daya_yolo.zip" to "data_yolo" dir)
+- Extract and create the following folder structure in the notebook as shown (Only populate "test", "train" and "valid" sub-dirs inside the "data_yolo" dir. Add an empty "results" dir in the "data_yolo" dir. Add "data.yaml" from "data_yolo.zip" to "data_yolo" dir)
 - ![YOLOv8 File Structure](/yolov8_file_struct.png)
 - Run cells (additional comments in notebook)
-- Can test differnt images by switching out test image from test directory
+- Can test different images by switching out test image from test directory
